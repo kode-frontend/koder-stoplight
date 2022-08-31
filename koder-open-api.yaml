@@ -33,10 +33,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: John
                         lastName: Doe
-                        userTag: string
+                        userTag: jd
                         department: android
-                        position: string
-                        birthday: '2019-08-24'
+                        position: developer
+                        birthday: '1973-01-24'
                         phone: '+79001234567'
                 ios:
                   value:
@@ -45,10 +45,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Mike
                         lastName: Smith
-                        userTag: string
+                        userTag: ms
                         department: ios
-                        position: string
-                        birthday: '2019-08-24'
+                        position: IOS developer
+                        birthday: '1992-04-14'
                         phone: '+79001234512'
                 design:
                   value:
@@ -57,10 +57,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Jany
                         lastName: Brown
-                        userTag: string
+                        userTag: jb
                         department: design
-                        position: string
-                        birthday: '2019-08-24'
+                        position: developer
+                        birthday: '2001-09-01'
                         phone: '+79001234513'
                 management:
                   value:
@@ -69,10 +69,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Boby
                         lastName: Jones
-                        userTag: string
+                        userTag: bj
                         department: management
-                        position: string
-                        birthday: '2019-08-24'
+                        position: project manager
+                        birthday: '1993-08-24'
                         phone: '+79001234514'
                 qa:
                   value:
@@ -81,10 +81,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Michael
                         lastName: Scott
-                        userTag: string
+                        userTag: ms
                         department: qa
-                        position: string
-                        birthday: '2019-08-24'
+                        position: Team Lead
+                        birthday: '1983-08-05'
                         phone: '+79001234515'
                 back_office:
                   value:
@@ -93,10 +93,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: David
                         lastName: Garcia
-                        userTag: string
+                        userTag: dg
                         department: back_office
-                        position: string
-                        birthday: '2019-08-24'
+                        position: Office manager
+                        birthday: '1990-01-22'
                         phone: '+79001234516'
                 frontend:
                   value:
@@ -105,10 +105,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Dan
                         lastName: Miller
-                        userTag: string
+                        userTag: dm
                         department: frontend
-                        position: string
-                        birthday: '2019-08-24'
+                        position: developer
+                        birthday: '1990-01-21'
                         phone: '+79001234517'
                 hr:
                   value:
@@ -119,8 +119,8 @@ paths:
                         lastName: Davis
                         userTag: string
                         department: hr
-                        position: string
-                        birthday: '2019-08-24'
+                        position: Team Lead
+                        birthday: '2003-01-24'
                         phone: '+79001234518'
                 pr:
                   value:
@@ -129,10 +129,10 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Joseph
                         lastName: Martinez
-                        userTag: string
+                        userTag: jm
                         department: pr
-                        position: string
-                        birthday: '2019-08-24'
+                        position: writer
+                        birthday: '2003-01-01'
                         phone: '+79001234519'
                 backend:
                   value:
@@ -141,7 +141,7 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Thomas
                         lastName: Lopez
-                        userTag: string
+                        userTag: Tech Lead
                         department: backend
                         position: string
                         birthday: '2019-08-24'
@@ -155,7 +155,7 @@ paths:
                         lastName: Thomas
                         userTag: string
                         department: support
-                        position: string
+                        position: support manager
                         birthday: '2019-08-24'
                         phone: '+79001234521'
                 analytics:
@@ -165,9 +165,9 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Christopher
                         lastName: Taylor
-                        userTag: string
+                        userTag: ct
                         department: analytics
-                        position: string
+                        position: Team Lead
                         birthday: '2019-08-24'
                         phone: '+79001234522'
                 all:
@@ -177,64 +177,64 @@ paths:
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: John
                         lastName: Doe
-                        userTag: string
+                        userTag: jd
                         department: android
-                        position: string
-                        birthday: '2019-08-24'
+                        position: developer
+                        birthday: '1973-01-24'
                         phone: '+79001234567'
                       - id: 497f6eca-6276-4993-bfeb-53gasfaf08
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Mike
                         lastName: Smith
-                        userTag: string
+                        userTag: ms
                         department: ios
-                        position: string
-                        birthday: '2019-08-24'
+                        position: IOS developer
+                        birthday: '1992-04-14'
                         phone: '+79001234512'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbb6fhd
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Jany
                         lastName: Brown
-                        userTag: string
+                        userTag: jb
                         department: design
-                        position: string
-                        birthday: '2019-08-24'
+                        position: developer
+                        birthday: '2001-09-01'
                         phone: '+79001234513'
                       - id: 497f6eca-6276-4993-bfeb-53cvfhAs
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Boby
                         lastName: Jones
-                        userTag: string
+                        userTag: bj
                         department: management
-                        position: string
-                        birthday: '2019-08-24'
+                        position: project manager
+                        birthday: '1993-08-24'
                         phone: '+79001234514'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Michael
                         lastName: Scott
-                        userTag: string
+                        userTag: ms
                         department: qa
-                        position: string
-                        birthday: '2019-08-24'
+                        position: Team Lead
+                        birthday: '1983-08-05'
                         phone: '+79001234515'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6hjycaejh08
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: David
                         lastName: Garcia
-                        userTag: string
+                        userTag: dg
                         department: back_office
-                        position: string
-                        birthday: '2019-08-24'
+                        position: Office manager
+                        birthday: '1990-01-22'
                         phone: '+79001234516'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Dan
                         lastName: Miller
-                        userTag: string
+                        userTag: dm
                         department: frontend
-                        position: string
-                        birthday: '2019-08-24'
+                        position: developer
+                        birthday: '1990-01-21'
                         phone: '+79001234517'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbbssaga6f08
                         avatarUrl: 'https://picsum.photos/120/120'
@@ -242,23 +242,23 @@ paths:
                         lastName: Davis
                         userTag: string
                         department: hr
-                        position: string
-                        birthday: '2019-08-24'
+                        position: Team Lead
+                        birthday: '2003-01-24'
                         phone: '+79001234518'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba35gs76f08
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Joseph
                         lastName: Martinez
-                        userTag: string
+                        userTag: jm
                         department: pr
-                        position: string
-                        birthday: '2019-08-24'
+                        position: writer
+                        birthday: '2003-01-01'
                         phone: '+79001234519'
                       - id: 497f6eca-6276-4993-bfeb-fjxffgsy4
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Thomas
                         lastName: Lopez
-                        userTag: string
+                        userTag: Tech Lead
                         department: backend
                         position: string
                         birthday: '2019-08-24'
@@ -269,16 +269,16 @@ paths:
                         lastName: Thomas
                         userTag: string
                         department: support
-                        position: string
+                        position: support manager
                         birthday: '2019-08-24'
                         phone: '+79001234521'
                       - id: 497f6eca-6276-4993-bfeb-dddw4yuk3
                         avatarUrl: 'https://picsum.photos/120/120'
                         firstName: Christopher
                         lastName: Taylor
-                        userTag: string
+                        userTag: ct
                         department: analytics
-                        position: string
+                        position: Team Lead
                         birthday: '2019-08-24'
                         phone: '+79001234522'
             application/xml:
