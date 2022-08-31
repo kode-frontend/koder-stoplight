@@ -1,0 +1,375 @@
+openapi: 3.0.0
+x-stoplight:
+  id: w8df3r00wgbkc
+info:
+  title: koder-open-api
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+  - url: 'http://127.0.0.1:4010'
+    description: Prism mock
+paths:
+  /users:
+    get:
+      summary: Get Users list
+      tags:
+        - user
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/User'
+                required:
+                  - items
+              examples:
+                android:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53qweca
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: John
+                        lastName: Doe
+                        userTag: string
+                        department: android
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234567'
+                ios:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53gasfaf08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Mike
+                        lastName: Smith
+                        userTag: string
+                        department: ios
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234512'
+                design:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbb6fhd
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Jany
+                        lastName: Brown
+                        userTag: string
+                        department: design
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234513'
+                management:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cvfhAs
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Boby
+                        lastName: Jones
+                        userTag: string
+                        department: management
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234514'
+                qa:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Michael
+                        lastName: Scott
+                        userTag: string
+                        department: qa
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234515'
+                back_office:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6hjycaejh08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: David
+                        lastName: Garcia
+                        userTag: string
+                        department: back_office
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234516'
+                frontend:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Dan
+                        lastName: Miller
+                        userTag: string
+                        department: frontend
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234517'
+                hr:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbbssaga6f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Richard
+                        lastName: Davis
+                        userTag: string
+                        department: hr
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234518'
+                pr:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba35gs76f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Joseph
+                        lastName: Martinez
+                        userTag: string
+                        department: pr
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234519'
+                backend:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-fjxffgsy4
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Thomas
+                        lastName: Lopez
+                        userTag: string
+                        department: backend
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234520'
+                support:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-sdg6qdgyj
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Charles
+                        lastName: Thomas
+                        userTag: string
+                        department: support
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234521'
+                analytics:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-dddw4yuk3
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Christopher
+                        lastName: Taylor
+                        userTag: string
+                        department: analytics
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234522'
+                all:
+                  value:
+                    items:
+                      - id: 497f6eca-6276-4993-bfeb-53qweca
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: John
+                        lastName: Doe
+                        userTag: string
+                        department: android
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234567'
+                      - id: 497f6eca-6276-4993-bfeb-53gasfaf08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Mike
+                        lastName: Smith
+                        userTag: string
+                        department: ios
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234512'
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbb6fhd
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Jany
+                        lastName: Brown
+                        userTag: string
+                        department: design
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234513'
+                      - id: 497f6eca-6276-4993-bfeb-53cvfhAs
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Boby
+                        lastName: Jones
+                        userTag: string
+                        department: management
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234514'
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Michael
+                        lastName: Scott
+                        userTag: string
+                        department: qa
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234515'
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6hjycaejh08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: David
+                        lastName: Garcia
+                        userTag: string
+                        department: back_office
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234516'
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Dan
+                        lastName: Miller
+                        userTag: string
+                        department: frontend
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234517'
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbbssaga6f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Richard
+                        lastName: Davis
+                        userTag: string
+                        department: hr
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234518'
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba35gs76f08
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Joseph
+                        lastName: Martinez
+                        userTag: string
+                        department: pr
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234519'
+                      - id: 497f6eca-6276-4993-bfeb-fjxffgsy4
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Thomas
+                        lastName: Lopez
+                        userTag: string
+                        department: backend
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234520'
+                      - id: 497f6eca-6276-4993-bfeb-sdg6qdgyj
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Charles
+                        lastName: Thomas
+                        userTag: string
+                        department: support
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234521'
+                      - id: 497f6eca-6276-4993-bfeb-dddw4yuk3
+                        avatarUrl: 'https://picsum.photos/120/120'
+                        firstName: Christopher
+                        lastName: Taylor
+                        userTag: string
+                        department: analytics
+                        position: string
+                        birthday: '2019-08-24'
+                        phone: '+79001234522'
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/User'
+        '500':
+          description: Internal Server Error
+      operationId: get-users
+      description: Get Users list
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: __example
+        - schema:
+            type: string
+          in: query
+          name: __code
+        - schema:
+            type: boolean
+          in: query
+          name: __dynamic
+    parameters: []
+components:
+  schemas:
+    User:
+      type: object
+      x-examples: {}
+      title: User
+      properties:
+        id:
+          type: string
+          x-faker: datatype.uuid
+        avatarUrl:
+          type: string
+          x-faker: image.avatar
+          example: 'https://picsum.photos/120/120'
+          default: 'https://picsum.photos/120/120'
+        firstName:
+          type: string
+          x-faker: name.firstName
+          minLength: 3
+          maxLength: 6
+          example: John
+        lastName:
+          type: string
+          x-faker: name.lastName
+          example: Doe
+        userTag:
+          type: string
+          x-faker: address.countryCode
+        department:
+          type: string
+          enum:
+            - android
+            - ios
+            - design
+            - management
+            - qa
+            - back_office
+            - frontend
+            - hr
+            - pr
+            - backend
+            - support
+            - analytics
+        position:
+          x-faker: name.jobType
+          type: string
+        birthday:
+          type: string
+          format: date
+        phone:
+          type: string
+          x-faker: phone.phoneNumberFormat
+          example: '+79001234567'
+      required:
+        - id
+        - avatarUrl
+        - firstName
+        - lastName
+        - userTag
+        - department
+        - position
+        - birthday
+        - phone
