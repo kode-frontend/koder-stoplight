@@ -4,10 +4,7 @@ x-stoplight:
 info:
   title: koder-open-api
   version: '1.0'
-servers:
-  - url: 'http://localhost:3000'
-  - url: 'http://127.0.0.1:4010'
-    description: Prism mock
+servers: []
 paths:
   /users:
     get:
