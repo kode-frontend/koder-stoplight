@@ -298,14 +298,19 @@ paths:
             type: string
           in: query
           name: __example
+          description: Параметр фильтрации пользователей по полю "department"
         - schema:
             type: string
+            enum:
+              - '500'
           in: query
           name: __code
+          description: Эмуляция кода ответа сервера
         - schema:
             type: boolean
           in: query
           name: __dynamic
+          description: Тип моковых данных. True - динамически генерируемые данные (рекомендуется использовать для проверки UI на устойчивость к разным данным)
     parameters: []
 components:
   schemas:
