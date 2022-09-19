@@ -30,7 +30,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53qweca
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: John
                         lastName: Doe
                         userTag: jd
@@ -42,7 +42,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53gasfaf08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Mike
                         lastName: Smith
                         userTag: ms
@@ -54,7 +54,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cbbbb6fhd
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Jany
                         lastName: Brown
                         userTag: jb
@@ -66,7 +66,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cvfhAs
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Boby
                         lastName: Jones
                         userTag: bj
@@ -78,7 +78,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Michael
                         lastName: Scott
                         userTag: ms
@@ -90,7 +90,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6hjycaejh08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: David
                         lastName: Garcia
                         userTag: dg
@@ -102,7 +102,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Dan
                         lastName: Miller
                         userTag: dm
@@ -114,7 +114,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cbbbbssaga6f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Richard
                         lastName: Davis
                         userTag: string
@@ -126,7 +126,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba35gs76f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Joseph
                         lastName: Martinez
                         userTag: jm
@@ -138,7 +138,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-fjxffgsy4
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Thomas
                         lastName: Lopez
                         userTag: Tech Lead
@@ -150,7 +150,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-sdg6qdgyj
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Charles
                         lastName: Thomas
                         userTag: string
@@ -162,7 +162,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-dddw4yuk3
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Christopher
                         lastName: Taylor
                         userTag: ct
@@ -174,7 +174,7 @@ paths:
                   value:
                     items:
                       - id: 497f6eca-6276-4993-bfeb-53qweca
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: John
                         lastName: Doe
                         userTag: jd
@@ -183,7 +183,7 @@ paths:
                         birthday: '1973-01-24'
                         phone: '+79001234567'
                       - id: 497f6eca-6276-4993-bfeb-53gasfaf08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Mike
                         lastName: Smith
                         userTag: ms
@@ -192,7 +192,7 @@ paths:
                         birthday: '1992-04-14'
                         phone: '+79001234512'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbb6fhd
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Jany
                         lastName: Brown
                         userTag: jb
@@ -201,7 +201,7 @@ paths:
                         birthday: '2001-09-01'
                         phone: '+79001234513'
                       - id: 497f6eca-6276-4993-bfeb-53cvfhAs
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Boby
                         lastName: Jones
                         userTag: bj
@@ -210,7 +210,7 @@ paths:
                         birthday: '1993-08-24'
                         phone: '+79001234514'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Michael
                         lastName: Scott
                         userTag: ms
@@ -219,7 +219,7 @@ paths:
                         birthday: '1983-08-05'
                         phone: '+79001234515'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6hjycaejh08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: David
                         lastName: Garcia
                         userTag: dg
@@ -228,7 +228,7 @@ paths:
                         birthday: '1990-01-22'
                         phone: '+79001234516'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Dan
                         lastName: Miller
                         userTag: dm
@@ -237,7 +237,7 @@ paths:
                         birthday: '1990-01-21'
                         phone: '+79001234517'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbbssaga6f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Richard
                         lastName: Davis
                         userTag: string
@@ -246,7 +246,7 @@ paths:
                         birthday: '2003-01-24'
                         phone: '+79001234518'
                       - id: 497f6eca-6276-4993-bfeb-53cbbbba35gs76f08
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Joseph
                         lastName: Martinez
                         userTag: jm
@@ -255,7 +255,7 @@ paths:
                         birthday: '2003-01-01'
                         phone: '+79001234519'
                       - id: 497f6eca-6276-4993-bfeb-fjxffgsy4
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Thomas
                         lastName: Lopez
                         userTag: Tech Lead
@@ -264,7 +264,7 @@ paths:
                         birthday: '2019-08-24'
                         phone: '+79001234520'
                       - id: 497f6eca-6276-4993-bfeb-sdg6qdgyj
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Charles
                         lastName: Thomas
                         userTag: string
@@ -273,7 +273,7 @@ paths:
                         birthday: '2019-08-24'
                         phone: '+79001234521'
                       - id: 497f6eca-6276-4993-bfeb-dddw4yuk3
-                        avatarUrl: 'https://picsum.photos/120/120'
+                        avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Christopher
                         lastName: Taylor
                         userTag: ct
