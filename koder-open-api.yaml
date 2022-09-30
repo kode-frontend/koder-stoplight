@@ -101,7 +101,7 @@ paths:
                 frontend:
                   value:
                     items:
-                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6re3
                         avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Dan
                         lastName: Miller
@@ -227,7 +227,7 @@ paths:
                         position: Office manager
                         birthday: '1990-01-22'
                         phone: '+79001234516'
-                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                      - id: 497f6eca-6276-4993-bfeb-53cbbbba6re3
                         avatarUrl: 'https://api.lorem.space/image/face?w=120&h=120'
                         firstName: Dan
                         lastName: Miller
